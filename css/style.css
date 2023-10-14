@@ -1,2 +1,57 @@
 @charset "UTF-8";
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background-color: lightgray;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+header h1 {
+    font-variant: small-caps;
+}
+header a, footer a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    transition-duration: 0.2s;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section {
+    padding: 10vh 0vh 10vh 30vh;
+    line-height: 2em;
+}
+
+section.normal {
+    background-color: white;
+}
+
+section.imagem {
+    background-color: lightcoral;
+}
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.336);
+    max-width: 400px;
+}
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
