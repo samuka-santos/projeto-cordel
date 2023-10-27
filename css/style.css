@@ -58,6 +58,8 @@ section.normal {
 section.imagem {
     background-color: lightcoral;
     color: white;
+    box-shadow: inset 6px 6px 12px 0px rgba(0, 0, 0, 0.336);
+    background-size: cover;
 }
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.336);
@@ -67,11 +69,9 @@ section.imagem > p {
 }
 section#img01 {
     background: black url('../imagens/background001.jpg') center center no-repeat fixed;
-    background-size: cover;
 }
 section#img02 {
     background: black url('../imagens/background002.jpg') center center no-repeat fixed;
-    background-size: cover;
 }
 
 footer {
